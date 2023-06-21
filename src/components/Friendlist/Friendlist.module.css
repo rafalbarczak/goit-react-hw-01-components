@@ -1,0 +1,35 @@
+.item {
+  width: 200px;
+  box-sizing: border-box;
+  display: flex;
+  box-shadow: 2px 2px 2px black;
+  padding-left: 20px;
+  gap: 10px;
+  align-items: center;
+  background-color: white;
+}
+.status {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  align-self: center;
+}
+.isOnline {
+  background-color: green;
+}
+.isOffline {
+  background-color: red;
+}
+.avatar {
+  max-height: 45px;
+  border-radius: 3px;
+}
+.name {
+  font-weight: 600;
+}
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,18 @@
+.statistics {
+  background: white;
+  box-shadow: grey;
+  text-align: center;
+}
+.stat-list {
+  list-style: none;
+  display: inline-flex;
+  gap: 10px;
+  border: 3px red solid;
+  padding: 5px;
+}
+.stat-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
